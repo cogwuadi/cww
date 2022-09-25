@@ -1,0 +1,119 @@
+
+*{
+    margin: 0;
+    padding: 0;    
+    font-family: sans-serif !important;
+    list-style-type: none;
+}
+
+body, html{
+    height: 100%;
+    width: 100vw;
+    overflow-x: hidden;
+    color: var(--text-color);
+}
+
+.head{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    background-color: crimson;
+    display: flex;
+    justify-content: space-around;
+}
+
+.todo{
+    display: flex;
+    margin-top: -10px;
+}
+
+.todo h2{
+    margin-left: -2px;
+    /* margin-top: 10px; */
+    font-size: 20px;
+    margin-top: 12px;
+}
+
+.logo{
+    height: 200px;
+    width: 200px;
+}
+
+.heading ul{
+    display: flex;
+}
+
+.heading li{
+    margin: 0 10px;
+    font-size: 20px;
+    font-size: 20px;
+}
+
+.button{
+    background-color: crimson;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: -10px;
+}
+
+.container{
+    max-width: 920px;
+    margin: 0 auto;
+    padding: 0 0.1rem;
+}
+
+main{
+    margin-top: 170px;
+    margin-left: 440px;
+    /* margin-right: 240px; */
+}
+
+.content{
+    width: 800px;
+    height: auto;
+}
+
+.content h2{
+    font-size: 70px;
+    font-weight: 700;
+}
+
+.content h3{
+    padding: 20px;
+    width: 320px;
+    font-size: 60px;
+    background-color: crimson;
+    color: white;
+    border-radius: 30px;
+    margin-left: 10px;
+    letter-spacing: 5px;
+}
+
+.content p{
+    width: 400px;
+    margin-top: 25px;
+}
+
+.email{
+    display: flex;
+    margin-top: 20px;
+    /* margin-top: 25px; */
+}
+
+.emaol h3{
+    font-size: 20px;
+
+}
+
+.but {
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 20px;
+    cursor: pointer;
+    justify-content: space-around;
+    background-color: crimson;
+    color: white;
+    /* display: flex; */
+    /* margin-top: 25px; */
+}
